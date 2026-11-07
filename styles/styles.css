@@ -16,8 +16,7 @@ h1 {
 img {
     width: 150px;
     height: auto;
-    border: 1px;
-    solid black;
+    border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px;
 
@@ -32,19 +31,25 @@ main {
     max-width: 840px;
 }
 
+img {
+    width: 200px;
+    height: auto;
+}
+
 aside {
-    width: 100;
-    margin: 50;
-    border: 50 solid rgb(22 33 55);/ * 1 */);
-    padding: 50;
+    width: 100px;
+    margin: 50px;
+    border: 50px solid rgb(22 33 55);/ * 1 */);
+    padding: 50px;
     background-color: darkblue;
     color: white;
     text-align: center;
 
-    img {
-        width: 200px;
-        height: auto;
-    }
+}
+
+aside img {
+    width: 200px;
+    height: auto;
 }
 
 footer {
