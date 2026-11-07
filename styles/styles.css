@@ -39,7 +39,9 @@ img {
 aside {
     width: 20em;
     margin: 1em;
-    border: 1px solid rgb(37, 70, 134);/ * The page is with blue*/);
+    border: 1px solid rgb(37, 70, 134);
+    /* The page is with blue */
+    ;
     padding: 1em;
     background-color: darkblue;
     color: white;
