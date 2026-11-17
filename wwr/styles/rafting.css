@@ -37,7 +37,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heanding-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 nav,
@@ -46,6 +46,7 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+    color: var(--secondary-color);
 }
 
 .socialmedia a {
@@ -73,14 +74,15 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
+    bottom: 10px;
 }
 
 .hero article img {
     float: right;
     width: 125px;
-    border: ;
-    margin: ;
-    box-shadow: ;
+    border: 8px;
+    margin: 16px;
+    box-shadow: 16px;
 }
