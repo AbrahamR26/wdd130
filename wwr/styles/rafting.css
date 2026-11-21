@@ -14,6 +14,7 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+
 }
 
 * {
@@ -27,11 +28,21 @@ body {
     color: var(--accent1-color);
 }
 
-header,
 main,
 footer {
     width: 840px;
     margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: #00bfff;
+    padding: 10px 0;
+}
+
+header img {
+    width: 100px;
+    height: auto;
 }
 
 h1,
@@ -100,4 +111,24 @@ header,
     display: flex;
     list-style: none;
 
+}
+
+.adventures {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.adventures img {
+    width: 150px;
+    height: 100px;
+}
+
+.adventures h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.adventures figure {
+    width: 120px;
 }
